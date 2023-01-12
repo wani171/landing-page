@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/">
-        <img src="./images/logo.png" alt="logo" className="logo" />
+        <img src="./images/JPEG GS.jpg" alt="logo" className="logo" />
       </NavLink>
       <Navbar />
     </MainHeader>
@@ -24,7 +24,7 @@ const MainHeader = styled.header`
   justify-content: space-between;
 
   .logo {
-    max-width: 30%;
+    max-width: 15%;
   }
 `;
 

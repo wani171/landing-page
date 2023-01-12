@@ -25,15 +25,18 @@ function Contact() {
   };
 
   return (
-    <div className="App">
-      <form onSubmit={onSubmit}>
-        <input type="text" name="name"/>
-        <input type="email" name="email"/>
-        <textarea name="message"></textarea>
+    <center>
+    <div class="container">
+      <h3>Contact form</h3><br />
+      <form  id="contact" onSubmit={onSubmit}>
+        <input type="text" name="name"/><br /><br />
+        <input type="email" name="email"/><br /><br />
+        <textarea name="message"></textarea><br /><br />
         <input type="submit" />
       </form>
       <span>{result}</span>
     </div>
+    </center>
   
     
   );
