@@ -69,10 +69,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* 4th column  */}
-          <div className="footer-contact">
-            <h3>Call Us</h3>
-          </div>
+          
         </div>
 
         {/* bottom section  */}
