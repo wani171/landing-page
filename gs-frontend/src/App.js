@@ -44,12 +44,12 @@ const App = () => {
         <GlobalStyle />
         <Header />
         <Routes>
-          <Route path="landing-page/" element={<Home />} />
-          <Route path="landing-page/about" element={<About />} />
-          <Route path="landing-page/products" element={<Products />} />
-          <Route path="landing-page/contact" element={<Contact />} />
-          <Route path="landing-page/singleproduct/:id" element={<SingleProduct />} />
-          <Route path="landing-page/cart" element={<Cart />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/singleproduct/:id" element={<SingleProduct />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
